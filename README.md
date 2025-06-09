@@ -36,22 +36,28 @@ A secure Node.js backend API with Express, MySQL, and JWT authentication for pro
 git clone https://github.com/jeyjenushan/CompanySubmissionBackend.git
 cd CompanySubmissionBackend/BackEnd
 npm install
+```
 
-Create .env file:
+### Create .env file:
+
+```bash
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=yourpassword
 DB_NAME=company_db
 JWT_SECRET=your_jwt_secret
 PORT=3000
+```
 
-📂 Project Structure
+### 📂 Project Structure
+
+```bash
 BackEnd/
-├── db/       # DB configuration
-├── controllers/  # Business logic
-├── middlewares/  # Auth middleware
-├── models/       # Database models
-├── routes/       # API endpoints
-├── .env          # Environment variables
-└── server.js        # Main application
+├── db/ # DB configuration
+├── controllers/ # Business logic
+├── middlewares/ # Auth middleware
+├── models/ # Database models
+├── routes/ # API endpoints
+├── .env # Environment variables
+└── server.js # Main application
 ```
